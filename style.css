@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke: 2px #000;
+    font-size:7vw;
+    color: white;
+    cursor: pointer;
+    height: 12vh;
+    width: 76.5vw;
+    /* background-color: red; */
+}
+h1 span:hover{
+    color: #000;
+    cursor: pointer;
+}
+#cur{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #bb0707;
+}
+
+#overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red */
+}
